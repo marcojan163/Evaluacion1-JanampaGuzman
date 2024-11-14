@@ -75,7 +75,7 @@ const personajes = [
 ]
 
 let longitudArray = personajes.length;
-/*
+// mayor poder
 function poderMayor(arrayP){
     let mayorPoder = 0;
     for (let i = 0; i < longitudArray; i++) {
@@ -90,7 +90,7 @@ function poderMayor(arrayP){
 var superPoder=personajes.attack;
 var resultadoPoder = poderMayor(superPoder);
 console.log (resultadoPoder)
-*/
 
+/// personajes sayan
 let rSaiyan = personajes.find(personajes => personajes.race === "Saiyan");
 console.log(rSaiyan)
