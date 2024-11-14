@@ -74,16 +74,23 @@ const personajes = [
     }
 ]
 
+let longitudArray = personajes.length;
+/*
 function poderMayor(arrayP){
     let mayorPoder = 0;
-    for (let index = 0; index < arrayP.length; index++) {
-        
-        if (mayorPoder <= arrayP[index]){
-            mayorPoder = arrayP[index];
+    for (let i = 0; i < longitudArray; i++) {
+
+        if (mayorPoder <= arrayP[i]){
+            mayorPoder = arrayP[i];
         }
     }
     return mayorPoder;
 }
 
-var superPoder=poderMayor(personajes.attack);
-console.log (superPoder)
+var superPoder=personajes.attack;
+var resultadoPoder = poderMayor(superPoder);
+console.log (resultadoPoder)
+*/
+
+let rSaiyan = personajes.find(personajes => personajes.race === "Saiyan");
+console.log(rSaiyan)
